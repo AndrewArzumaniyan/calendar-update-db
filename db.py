@@ -3,7 +3,7 @@ import datetime
 
 CUSTOMER_COLS = ['telegram_id', 'oauth_token', 'email', 'name', 'surname', 'role', 'login']
 ACCESS_COLS = ['customer_id', 'allowed_customer_id', 'type', 'end_time']
-EVENT_COLS = ['event_id', 'customer_id', 'event_name', 'event_start', 'event_end', 'event_last_modified']
+EVENT_COLS = ['event_id', 'customer_id', 'event_name', 'event_start', 'event_end', 'event_last_modified', 'requested']
 
 # Параметры подключения к базе данных
 _dbname = 'calendar-bot-new'
